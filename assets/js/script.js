@@ -114,7 +114,7 @@ if (localStorage.getItem("theme") === "light_theme") {
 document.addEventListener('DOMContentLoaded', function () {
   const typingTextElement = document.querySelector('.typing-text');
   const phrases = [
-    'AI Developer',
+    'Agentic AI Developer  ',
     'Machine Learning Explorer',
     'Python Developer',
     'Data Enthusiast',
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // Deleting the text
       typingTextElement.textContent = currentPhrase.substring(0, charIndex - 1);
       charIndex--;
-      setTimeout(typePhrase, 120); // Deleting speed (same as typing speed)
+      setTimeout(typePhrase, 100); // Deleting speed (same as typing speed)
     } else {
       // Switch between typing and deleting modes
       isDeleting = !isDeleting;
